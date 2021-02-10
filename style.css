@@ -1,0 +1,138 @@
+
+/*UNIVERSAL STYLING*/
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://www.fiveguys.co.uk/image/fiveguys/burger.jpg?cb=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+/*NAVIGATION BAR*/
+header {
+    background-color: #ce1d26;
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0px 20px 0px;
+    width: 2000px;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+
+
+nav ul{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*MAIN SECTION*/
+#button{
+    text-align: center;
+}
+
+#main-button{
+    margin-top: 420px;
+    background-color: white;
+    padding: 12px 25px 12px 25px;
+    border: 3px solid;
+    background-color: rgba(230, 230, 230, 0.1);
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#cross-bar{
+   
+    margin-top: 420px;
+    padding-bottom: 90px;
+    padding-top: 15px;
+    background-image: url('https://www.fiveguys.co.uk/image/tenants/tenant-uk/main_home.jpg');
+    background-position: bottom;
+}
+
+/*SECTION-1*/
+
+#section-1 {
+    background-color: white;
+}
+#section-1-tiles-1, #section-1-tiles-2 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+figure {
+
+    margin: 50px;
+}
+
+.clickable-pic:hover{
+    transform: scale(1.1);
+}
+
+.picture {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#section-2 {
+    padding:100px;
+    border: 1px groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#left-section-2, #right-section-2 {
+    padding: 10px;
+}
+#left-section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.postbox-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+input {
+    padding: 20px 120px 20px 120px;
+}
+#submit-button{
+   padding-left: 171px;
+   padding-right: 171px;
+   background-color: #ce1d26;
+   color: white;
+   margin-top: 20px;
+}
+/*FOOTER*/
+
+footer {
+    background-color: #ce1d26;
+    padding: 20px;
+    text-align: center;
+}
